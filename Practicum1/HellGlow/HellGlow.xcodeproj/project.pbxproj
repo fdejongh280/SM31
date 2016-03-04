@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5E026141C8091FF004AC994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E026131C8091FF004AC994 /* AppDelegate.swift */; };
+		F5E026161C8091FF004AC994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E026151C8091FF004AC994 /* ViewController.swift */; };
+		F5E026191C8091FF004AC994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E026171C8091FF004AC994 /* Main.storyboard */; };
+		F5E0261B1C8091FF004AC994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E0261A1C8091FF004AC994 /* Assets.xcassets */; };
+		F5E0261E1C8091FF004AC994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E0261C1C8091FF004AC994 /* LaunchScreen.storyboard */; };
+		F5E026291C8091FF004AC994 /* HellGlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E026281C8091FF004AC994 /* HellGlowTests.swift */; };
+		F5E026341C8091FF004AC994 /* HellGlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E026331C8091FF004AC994 /* HellGlowUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5E026251C8091FF004AC994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E026081C8091FF004AC994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E0260F1C8091FF004AC994;
+			remoteInfo = HellGlow;
+		};
+		F5E026301C8091FF004AC994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5E026081C8091FF004AC994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5E0260F1C8091FF004AC994;
+			remoteInfo = HellGlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5E026101C8091FF004AC994 /* HellGlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellGlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E026131C8091FF004AC994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5E026151C8091FF004AC994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5E026181C8091FF004AC994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5E0261A1C8091FF004AC994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5E0261D1C8091FF004AC994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5E0261F1C8091FF004AC994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E026241C8091FF004AC994 /* HellGlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellGlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E026281C8091FF004AC994 /* HellGlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellGlowTests.swift; sourceTree = "<group>"; };
+		F5E0262A1C8091FF004AC994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E0262F1C8091FF004AC994 /* HellGlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellGlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E026331C8091FF004AC994 /* HellGlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellGlowUITests.swift; sourceTree = "<group>"; };
+		F5E026351C8091FF004AC994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5E0260D1C8091FF004AC994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E026211C8091FF004AC994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E0262C1C8091FF004AC994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5E026071C8091FF004AC994 = {
+			isa = PBXGroup;
+			children = (
+				F5E026121C8091FF004AC994 /* HellGlow */,
+				F5E026271C8091FF004AC994 /* HellGlowTests */,
+				F5E026321C8091FF004AC994 /* HellGlowUITests */,
+				F5E026111C8091FF004AC994 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E026111C8091FF004AC994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E026101C8091FF004AC994 /* HellGlow.app */,
+				F5E026241C8091FF004AC994 /* HellGlowTests.xctest */,
+				F5E0262F1C8091FF004AC994 /* HellGlowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E026121C8091FF004AC994 /* HellGlow */ = {
+			isa = PBXGroup;
+			children = (
+				F5E026131C8091FF004AC994 /* AppDelegate.swift */,
+				F5E026151C8091FF004AC994 /* ViewController.swift */,
+				F5E026171C8091FF004AC994 /* Main.storyboard */,
+				F5E0261A1C8091FF004AC994 /* Assets.xcassets */,
+				F5E0261C1C8091FF004AC994 /* LaunchScreen.storyboard */,
+				F5E0261F1C8091FF004AC994 /* Info.plist */,
+			);
+			path = HellGlow;
+			sourceTree = "<group>";
+		};
+		F5E026271C8091FF004AC994 /* HellGlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E026281C8091FF004AC994 /* HellGlowTests.swift */,
+				F5E0262A1C8091FF004AC994 /* Info.plist */,
+			);
+			path = HellGlowTests;
+			sourceTree = "<group>";
+		};
+		F5E026321C8091FF004AC994 /* HellGlowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E026331C8091FF004AC994 /* HellGlowUITests.swift */,
+				F5E026351C8091FF004AC994 /* Info.plist */,
+			);
+			path = HellGlowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5E0260F1C8091FF004AC994 /* HellGlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E026381C8091FF004AC994 /* Build configuration list for PBXNativeTarget "HellGlow" */;
+			buildPhases = (
+				F5E0260C1C8091FF004AC994 /* Sources */,
+				F5E0260D1C8091FF004AC994 /* Frameworks */,
+				F5E0260E1C8091FF004AC994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HellGlow;
+			productName = HellGlow;
+			productReference = F5E026101C8091FF004AC994 /* HellGlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5E026231C8091FF004AC994 /* HellGlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E0263B1C8091FF004AC994 /* Build configuration list for PBXNativeTarget "HellGlowTests" */;
+			buildPhases = (
+				F5E026201C8091FF004AC994 /* Sources */,
+				F5E026211C8091FF004AC994 /* Frameworks */,
+				F5E026221C8091FF004AC994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E026261C8091FF004AC994 /* PBXTargetDependency */,
+			);
+			name = HellGlowTests;
+			productName = HellGlowTests;
+			productReference = F5E026241C8091FF004AC994 /* HellGlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5E0262E1C8091FF004AC994 /* HellGlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E0263E1C8091FF004AC994 /* Build configuration list for PBXNativeTarget "HellGlowUITests" */;
+			buildPhases = (
+				F5E0262B1C8091FF004AC994 /* Sources */,
+				F5E0262C1C8091FF004AC994 /* Frameworks */,
+				F5E0262D1C8091FF004AC994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5E026311C8091FF004AC994 /* PBXTargetDependency */,
+			);
+			name = HellGlowUITests;
+			productName = HellGlowUITests;
+			productReference = F5E0262F1C8091FF004AC994 /* HellGlowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5E026081C8091FF004AC994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Fhict;
+				TargetAttributes = {
+					F5E0260F1C8091FF004AC994 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					F5E026231C8091FF004AC994 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F5E0260F1C8091FF004AC994;
+					};
+					F5E0262E1C8091FF004AC994 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = F5E0260F1C8091FF004AC994;
+					};
+				};
+			};
+			buildConfigurationList = F5E0260B1C8091FF004AC994 /* Build configuration list for PBXProject "HellGlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5E026071C8091FF004AC994;
+			productRefGroup = F5E026111C8091FF004AC994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5E0260F1C8091FF004AC994 /* HellGlow */,
+				F5E026231C8091FF004AC994 /* HellGlowTests */,
+				F5E0262E1C8091FF004AC994 /* HellGlowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5E0260E1C8091FF004AC994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E0261E1C8091FF004AC994 /* LaunchScreen.storyboard in Resources */,
+				F5E0261B1C8091FF004AC994 /* Assets.xcassets in Resources */,
+				F5E026191C8091FF004AC994 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E026221C8091FF004AC994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E0262D1C8091FF004AC994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5E0260C1C8091FF004AC994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E026161C8091FF004AC994 /* ViewController.swift in Sources */,
+				F5E026141C8091FF004AC994 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E026201C8091FF004AC994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E026291C8091FF004AC994 /* HellGlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E0262B1C8091FF004AC994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E026341C8091FF004AC994 /* HellGlowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5E026261C8091FF004AC994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E0260F1C8091FF004AC994 /* HellGlow */;
+			targetProxy = F5E026251C8091FF004AC994 /* PBXContainerItemProxy */;
+		};
+		F5E026311C8091FF004AC994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5E0260F1C8091FF004AC994 /* HellGlow */;
+			targetProxy = F5E026301C8091FF004AC994 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5E026171C8091FF004AC994 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E026181C8091FF004AC994 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5E0261C1C8091FF004AC994 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5E0261D1C8091FF004AC994 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5E026361C8091FF004AC994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5E026371C8091FF004AC994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5E026391C8091FF004AC994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HellGlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Floris.com.HellGlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5E0263A1C8091FF004AC994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HellGlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Floris.com.HellGlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5E0263C1C8091FF004AC994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HellGlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Floris.com.HellGlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HellGlow.app/HellGlow";
+			};
+			name = Debug;
+		};
+		F5E0263D1C8091FF004AC994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HellGlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Floris.com.HellGlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HellGlow.app/HellGlow";
+			};
+			name = Release;
+		};
+		F5E0263F1C8091FF004AC994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HellGlowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Floris.com.HellGlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HellGlow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F5E026401C8091FF004AC994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HellGlowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Floris.com.HellGlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HellGlow;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E0260B1C8091FF004AC994 /* Build configuration list for PBXProject "HellGlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E026361C8091FF004AC994 /* Debug */,
+				F5E026371C8091FF004AC994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E026381C8091FF004AC994 /* Build configuration list for PBXNativeTarget "HellGlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E026391C8091FF004AC994 /* Debug */,
+				F5E0263A1C8091FF004AC994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5E0263B1C8091FF004AC994 /* Build configuration list for PBXNativeTarget "HellGlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E0263C1C8091FF004AC994 /* Debug */,
+				F5E0263D1C8091FF004AC994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5E0263E1C8091FF004AC994 /* Build configuration list for PBXNativeTarget "HellGlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E0263F1C8091FF004AC994 /* Debug */,
+				F5E026401C8091FF004AC994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5E026081C8091FF004AC994 /* Project object */;
+}

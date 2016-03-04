@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="c8E-5L-fhw">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--About-->
+        <scene sceneID="RmE-7H-qgz">
+            <objects>
+                <viewController title="About" id="Qcm-5d-iYK" customClass="AboutViewController" customModule="Practicum2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Bs-qD-X5A"/>
+                        <viewControllerLayoutGuide type="bottom" id="0Mh-NT-M2S"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dmv-m2-jUd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="js2-Fa-yKq">
+                                <rect key="frame" x="105" y="442" width="110" height="51"/>
+                                <color key="backgroundColor" red="0.99607843137254903" green="0.46417780993457963" blue="0.4856385905486314" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Easter Egg">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lI0-5o-xoP" kind="modal" id="aJh-tF-oDV"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hello world!" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iFr-dy-AMd">
+                                <rect key="frame" x="111" y="229" width="98" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8dg-6C-6XA">
+                                <rect key="frame" x="95" y="60" width="130" height="58"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.46417780990000002" blue="0.48563859050000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Show textfield">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnShow:" destination="Qcm-5d-iYK" eventType="touchUpInside" id="CZk-PL-qF2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About" id="tr2-xo-2EE"/>
+                    <connections>
+                        <outlet property="btnShow" destination="8dg-6C-6XA" id="wqI-C1-FAW"/>
+                        <outlet property="textToShow" destination="iFr-dy-AMd" id="P5y-5C-oQN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MfQ-0y-QFI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="333.86666666666667" y="623.85333333333335"/>
+        </scene>
+        <!--Easter Egg View Controller-->
+        <scene sceneID="8br-L4-bPT">
+            <objects>
+                <viewController id="lI0-5o-xoP" customClass="EasterEggViewController" customModule="Practicum2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ULK-AG-eiK"/>
+                        <viewControllerLayoutGuide type="bottom" id="cbP-B6-jvq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eM7-45-dmb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="easter-egg" translatesAutoresizingMaskIntoConstraints="NO" id="cl3-uB-h9r">
+                                <rect key="frame" x="40" y="81" width="240" height="295"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pbu-vs-E3U">
+                                <rect key="frame" x="109" y="448" width="102" height="66"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="btnClose:" destination="lI0-5o-xoP" eventType="touchUpInside" id="IMv-HZ-5Ii"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qfd-2z-Mbf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="735" y="623"/>
+        </scene>
+        <!--More Details View Controller-->
+        <scene sceneID="jOP-Q7-iDa">
+            <objects>
+                <viewController id="CQn-b8-uQ1" customClass="MoreDetailsViewController" customModule="Practicum2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="smN-Cn-j9h"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZMg-Qh-MFz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Dus-Fo-Fzn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Xke-DN-z4R">
+                                <rect key="frame" x="38" y="72" width="245" height="434"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hpg-jK-xtc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Hi-Py-G7z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1204" y="1337"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="TTf-08-XTn">
+            <objects>
+                <viewController id="qVC-9h-RQg" customClass="DetailsViewController" customModule="Practicum2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J66-7C-uJr"/>
+                        <viewControllerLayoutGuide type="bottom" id="dIf-K8-X3v"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ztk-Hb-3NO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="am1-KK-6bK">
+                                <rect key="frame" x="102" y="432" width="117" height="66"/>
+                                <state key="normal" title="More details"/>
+                                <connections>
+                                    <segue destination="CQn-b8-uQ1" kind="push" id="GgO-Zu-Obm"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DBN-OO-7Zu">
+                                <rect key="frame" x="31" y="106" width="274" height="318"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yJf-rL-IEN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ej4-aT-7xr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="1331"/>
+        </scene>
+        <!--General-->
+        <scene sceneID="Nmf-yp-iKF">
+            <objects>
+                <viewController title="General" id="Alf-Y0-Hmv" customClass="GeneralViewController" customModule="Practicum2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CbI-dQ-gZz"/>
+                        <viewControllerLayoutGuide type="bottom" id="xqc-2W-wGw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5RD-vf-IG8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A0v-pe-Tdi">
+                                <rect key="frame" x="23" y="76" width="274" height="318"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="General" id="QWp-qz-PgA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gMm-zf-TJW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="333" y="-2"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="1fO-eq-bhf">
+            <objects>
+                <tabBarController id="c8E-5L-fhw" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="a2O-eQ-WPL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Alf-Y0-Hmv" kind="relationship" relationship="viewControllers" id="1Mo-ot-bZJ"/>
+                        <segue destination="Qcm-5d-iYK" kind="relationship" relationship="viewControllers" id="1Mi-o4-qCg"/>
+                        <segue destination="oPB-an-ZbV" kind="relationship" relationship="viewControllers" id="DLQ-Gx-QtA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KwX-v8-GWb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-103.46666666666667" y="311.45333333333332"/>
+        </scene>
+        <!--Details-->
+        <scene sceneID="Bj8-cq-JHT">
+            <objects>
+                <navigationController title="Details" automaticallyAdjustsScrollViewInsets="NO" id="oPB-an-ZbV" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Details" id="SND-O5-7UC"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5VG-Qh-8f5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qVC-9h-RQg" kind="relationship" relationship="rootViewController" id="Mhf-yy-CXq"/>
+                        <segue destination="CQn-b8-uQ1" kind="push" id="iWH-UA-Pp7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nHe-Xo-Vh6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="337.06666666666666" y="1331.0133333333333"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="easter-egg" width="700" height="909"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="iWH-UA-Pp7"/>
+    </inferredMetricsTieBreakers>
+</document>

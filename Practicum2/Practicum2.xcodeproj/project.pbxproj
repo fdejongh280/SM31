@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5CE45471C8737410036FA33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE45461C8737410036FA33 /* AppDelegate.swift */; };
+		F5CE45491C8737410036FA33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE45481C8737410036FA33 /* ViewController.swift */; };
+		F5CE454C1C8737410036FA33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CE454A1C8737410036FA33 /* Main.storyboard */; };
+		F5CE454F1C8737410036FA33 /* Practicum2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5CE454D1C8737410036FA33 /* Practicum2.xcdatamodeld */; };
+		F5CE45511C8737410036FA33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CE45501C8737410036FA33 /* Assets.xcassets */; };
+		F5CE45541C8737410036FA33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CE45521C8737410036FA33 /* LaunchScreen.storyboard */; };
+		F5CE45681C8748AC0036FA33 /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE45671C8748AC0036FA33 /* GeneralViewController.swift */; };
+		F5CE456A1C8748D10036FA33 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE45691C8748D10036FA33 /* AboutViewController.swift */; };
+		F5CE456C1C8748E60036FA33 /* EasterEggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE456B1C8748E60036FA33 /* EasterEggViewController.swift */; };
+		F5CE456E1C8749020036FA33 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE456D1C8749020036FA33 /* DetailsViewController.swift */; };
+		F5CE45701C8749100036FA33 /* MoreDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CE456F1C8749100036FA33 /* MoreDetailsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5CE45431C8737410036FA33 /* Practicum2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practicum2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CE45461C8737410036FA33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5CE45481C8737410036FA33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5CE454B1C8737410036FA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5CE454E1C8737410036FA33 /* Practicum2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Practicum2.xcdatamodel; sourceTree = "<group>"; };
+		F5CE45501C8737410036FA33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5CE45531C8737410036FA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5CE45551C8737410036FA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CE45671C8748AC0036FA33 /* GeneralViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		F5CE45691C8748D10036FA33 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		F5CE456B1C8748E60036FA33 /* EasterEggViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasterEggViewController.swift; sourceTree = "<group>"; };
+		F5CE456D1C8749020036FA33 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F5CE456F1C8749100036FA33 /* MoreDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreDetailsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5CE45401C8737410036FA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5CE453A1C8737410036FA33 = {
+			isa = PBXGroup;
+			children = (
+				F5CE45451C8737410036FA33 /* Practicum2 */,
+				F5CE45441C8737410036FA33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5CE45441C8737410036FA33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5CE45431C8737410036FA33 /* Practicum2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5CE45451C8737410036FA33 /* Practicum2 */ = {
+			isa = PBXGroup;
+			children = (
+				F5CE45461C8737410036FA33 /* AppDelegate.swift */,
+				F5CE45481C8737410036FA33 /* ViewController.swift */,
+				F5CE454A1C8737410036FA33 /* Main.storyboard */,
+				F5CE45671C8748AC0036FA33 /* GeneralViewController.swift */,
+				F5CE45691C8748D10036FA33 /* AboutViewController.swift */,
+				F5CE456B1C8748E60036FA33 /* EasterEggViewController.swift */,
+				F5CE456D1C8749020036FA33 /* DetailsViewController.swift */,
+				F5CE456F1C8749100036FA33 /* MoreDetailsViewController.swift */,
+				F5CE45501C8737410036FA33 /* Assets.xcassets */,
+				F5CE45521C8737410036FA33 /* LaunchScreen.storyboard */,
+				F5CE45551C8737410036FA33 /* Info.plist */,
+				F5CE454D1C8737410036FA33 /* Practicum2.xcdatamodeld */,
+			);
+			path = Practicum2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5CE45421C8737410036FA33 /* Practicum2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CE45581C8737410036FA33 /* Build configuration list for PBXNativeTarget "Practicum2" */;
+			buildPhases = (
+				F5CE453F1C8737410036FA33 /* Sources */,
+				F5CE45401C8737410036FA33 /* Frameworks */,
+				F5CE45411C8737410036FA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Practicum2;
+			productName = Practicum2;
+			productReference = F5CE45431C8737410036FA33 /* Practicum2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5CE453B1C8737410036FA33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Fhict;
+				TargetAttributes = {
+					F5CE45421C8737410036FA33 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F5CE453E1C8737410036FA33 /* Build configuration list for PBXProject "Practicum2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5CE453A1C8737410036FA33;
+			productRefGroup = F5CE45441C8737410036FA33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CE45421C8737410036FA33 /* Practicum2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5CE45411C8737410036FA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CE45541C8737410036FA33 /* LaunchScreen.storyboard in Resources */,
+				F5CE45511C8737410036FA33 /* Assets.xcassets in Resources */,
+				F5CE454C1C8737410036FA33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5CE453F1C8737410036FA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CE454F1C8737410036FA33 /* Practicum2.xcdatamodeld in Sources */,
+				F5CE45491C8737410036FA33 /* ViewController.swift in Sources */,
+				F5CE45701C8749100036FA33 /* MoreDetailsViewController.swift in Sources */,
+				F5CE45471C8737410036FA33 /* AppDelegate.swift in Sources */,
+				F5CE456A1C8748D10036FA33 /* AboutViewController.swift in Sources */,
+				F5CE456E1C8749020036FA33 /* DetailsViewController.swift in Sources */,
+				F5CE456C1C8748E60036FA33 /* EasterEggViewController.swift in Sources */,
+				F5CE45681C8748AC0036FA33 /* GeneralViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5CE454A1C8737410036FA33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CE454B1C8737410036FA33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5CE45521C8737410036FA33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CE45531C8737410036FA33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5CE45561C8737410036FA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5CE45571C8737410036FA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5CE45591C8737410036FA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Practicum2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fontys.sm.Practicum2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5CE455A1C8737410036FA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Practicum2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.fontys.sm.Practicum2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5CE453E1C8737410036FA33 /* Build configuration list for PBXProject "Practicum2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CE45561C8737410036FA33 /* Debug */,
+				F5CE45571C8737410036FA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CE45581C8737410036FA33 /* Build configuration list for PBXNativeTarget "Practicum2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CE45591C8737410036FA33 /* Debug */,
+				F5CE455A1C8737410036FA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5CE454D1C8737410036FA33 /* Practicum2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5CE454E1C8737410036FA33 /* Practicum2.xcdatamodel */,
+			);
+			currentVersion = F5CE454E1C8737410036FA33 /* Practicum2.xcdatamodel */;
+			path = Practicum2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F5CE453B1C8737410036FA33 /* Project object */;
+}
